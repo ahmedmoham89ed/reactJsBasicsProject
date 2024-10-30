@@ -1,0 +1,17 @@
+.navbar-list{
+    background-color: #bf4080;
+    li{
+        a{
+            color: rgb(52, 10, 10);
+            font-size: 22px;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: all .5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+        &:hover{
+            a{
+                color: white;
+            }
+        }
+    }
+}
